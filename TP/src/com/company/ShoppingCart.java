@@ -8,7 +8,7 @@ public class ShoppingCart {
      int id;
 
     public void addItem(List<Item> item) {
-        this.items = item;
+        items.add(item);
     }
 
     public int itemCount(){
